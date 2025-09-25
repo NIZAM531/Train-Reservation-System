@@ -3,9 +3,9 @@
 # 🚆 Train Reservation System 
 
 A **modern terminal-based Train Reservation System** built in **C++**, featuring a full suite of functionalities including seat maps, booking, cancellation, and PNR-based ticketing, designed to simulate a real-world train reservation experience.
-[image_alt](https://github.com/NIZAM531/Train-Reservation-System/blob/main/wired-flat-1324-c-code-language.gif?raw=true)
----
 
+---
+![image_alt](https://github.com/NIZAM531/Train-Reservation-System/blob/main/wired-flat-1324-c-code-language.gif?raw=true)
 ## 🔹 Features
 
 1. **User Management**  
