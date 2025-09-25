@@ -71,6 +71,7 @@ Enter your choice:
 
 **Seat Map Display:**  
 ``Seat Map for Express 101 (City A ➝ City B)``
+
 ```
 First Class (5 seats available):
 🟩1 🟩2 🟩3 🟥4 🟩5
@@ -85,7 +86,7 @@ Sleeper Non-AC (2 seats available):
 🟩1 🟩2```
 
 ```
-\**Booking Seats:**\  
+\\**Booking Seats:**\\ 
 
 
 Enter Train Number: 1
@@ -101,24 +102,25 @@ Enter seat numbers separated by space: 1 2
 
 ```
 ================ TICKET ================
-``PNR Number : 1001
+PNR Number : 1001
 Username : john_doe
 Train Name : Express 101
 Route : City A ➝ City B
 Seat Type : First Class
 Seats Booked : 1,2
-Date : 25-09-2025 ``
+Date : 25-09-2025 
  ```
- ```
-**Booking History & PNR Search:**  
+`` 
+**Booking History & PNR Search:**  ``
 
-📖 Booking History for john_doe:
-``PNR1001,john_doe,Express 101,City A ➝ City B,First Class,1/2``
-
-``Enter PNR number to search: 1001``
 ```
-🟢 Booking found:
+📖 Booking History for john_doe:
 PNR1001,john_doe,Express 101,City A ➝ City B,First Class,1/2
+```
+``Enter PNR number to search: 1001``
+
+🟢 Booking found:
+``PNR1001,john_doe,Express 101,City A ➝ City B,First Class,1/2``
 
 ---
 
@@ -128,14 +130,18 @@ PNR1001,john_doe,Express 101,City A ➝ City B,First Class,1/2
 - **File Storage:** CSV files for persistent storage of trains, users, and bookings  
 - **Terminal Graphics:** ANSI color codes and Unicode characters for seat maps  
 ---
+```
 ## 📝 How to Run
-1. **Clone the repository:**  
-```bash
+1. **Clone the repository:**
+
+```
 git clone <repository-url>
 ```
 Compile the program:
 ```g++ TrainReservationSystem.cpp -o TrainReservationSystem```
+
 Run the program:
+
 ```./TrainReservationSystem```
 ``Follow on-screen instructions to register/login, view trains, select seats, book or cancel tickets, and generate tickets.``
 
